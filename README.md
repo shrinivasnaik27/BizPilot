@@ -190,6 +190,8 @@ BizPilot/
 
 ## ⚡ Quick Start
 
+> Run the clone command from the parent folder where you want `BizPilot` created. If you are already in an existing `BizPilot` folder, skip cloning and continue from that folder. If your PowerShell prompt already shows `(venv)`, the virtual environment is active; do not create it again.
+
 ```powershell
 # 1. Clone the repo
 git clone https://github.com/shrinivasnaik27/BizPilot.git
@@ -234,12 +236,16 @@ streamlit run frontend\app.py
 
 ### Step 1 — Clone Repository
 
+Run this from the parent folder where you want `BizPilot` created. If you already have the project open locally, skip this step and continue from its root folder.
+
 ```powershell
 git clone https://github.com/shrinivasnaik27/BizPilot.git
 cd BizPilot
 ```
 
 ### Step 2 — Create Virtual Environment
+
+If the prompt already shows `(venv)`, skip this step. Do not run `python -m venv venv` while that environment is active.
 
 ```powershell
 python -m venv venv
